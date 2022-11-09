@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "SQEXSEADCategoryTrack.h"
 #include "Evaluation/MovieSceneEvalTemplate.h"
 #include "SQEXSEADCategorySectionTemplate.generated.h"
 
@@ -13,5 +14,13 @@ public:
     USQEXSEADCategorySection* CategorySection;
     
     SQEXSEADSEQUENCERTRACKS_API FSQEXSEADCategorySectionTemplate();
+
+    FSQEXSEADCategorySectionTemplate(const USQEXSEADCategorySection& Section, const USQEXSEADCategoryTrack& Track);
+
+    /*/** Template is copied after being created. We need to re-link property storage to property handler#1#
+    FSQEXSEADAudioSectionTemplate(const FSQEXSEADAudioSectionTemplate& InOther);*/
+
+
+    virtual ~FSQEXSEADCategorySectionTemplate() = default;
 };
 

@@ -1,0 +1,9 @@
+{
+	"BuildId": "17155196",
+	"Modules": 
+	{
+		"LwSys": "UE4Editor-LwSys-0001.dll",
+		"Shinsen": "UE4Editor-Shinsen-0001.dll",
+		"ShinsenMd": "UE4Editor-ShinsenMd-0001.dll"
+	}
+}

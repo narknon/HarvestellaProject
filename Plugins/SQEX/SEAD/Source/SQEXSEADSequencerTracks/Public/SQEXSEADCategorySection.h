@@ -26,6 +26,8 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FName GetCategoryLayerName() const;
+
+    
     
 };
 

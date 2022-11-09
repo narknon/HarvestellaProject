@@ -1,7 +1,7 @@
 {
-	"BuildId": "ab2d0101-3e84-4d49-bb5f-8f5135b2fed2",
+	"BuildId": "17155196",
 	"Modules": 
 	{
-		"RichTextBlockInlineDecorator": "UE4Editor-RichTextBlockInlineDecorator.dll"
+		"RichTextBlockInlineDecorator": "UE4Editor-RichTextBlockInlineDecorator-0001.dll"
 	}
 }
