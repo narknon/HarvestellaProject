@@ -2,7 +2,7 @@
 	"BuildId": "17155196",
 	"Modules": 
 	{
-		"ACLPlugin": "UE4Editor-ACLPlugin-0001.dll",
-		"ACLPluginEditor": "UE4Editor-ACLPluginEditor-0001.dll"
+		"ACLPlugin": "UE4Editor-ACLPlugin.dll",
+		"ACLPluginEditor": "UE4Editor-ACLPluginEditor.dll"
 	}
 }
