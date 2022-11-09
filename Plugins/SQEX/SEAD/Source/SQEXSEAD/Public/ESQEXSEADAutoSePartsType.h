@@ -5,7 +5,7 @@
 UENUM(BlueprintType)
 namespace ESQEXSEADAutoSePartsType {
     enum Type {
-        Invalid = -0x1,
+        Invalid /*= -0x1*/,
         Foot,
         Arm,
         Wing,

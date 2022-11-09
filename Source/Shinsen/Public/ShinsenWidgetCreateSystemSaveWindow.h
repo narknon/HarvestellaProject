@@ -3,6 +3,8 @@
 #include "ShinsenWidgetBase.h"
 #include "ShinsenWidgetCreateSystemSaveWindow.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FEndWidgetSignature);
+
 UCLASS(Abstract, Blueprintable, EditInlineNew)
 class SHINSEN_API UShinsenWidgetCreateSystemSaveWindow : public UShinsenWidgetBase {
     GENERATED_BODY()

@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "ShinsenWidgetBase.h"
+#include "ShinsenWidgetCreateSystemSaveWindow.h"
 #include "ShinsenWidgetTrialStart.generated.h"
 
 UCLASS(Abstract, Blueprintable, EditInlineNew)

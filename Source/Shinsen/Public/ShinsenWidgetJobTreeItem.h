@@ -4,6 +4,8 @@
 #include "ECharacterJobType.h"
 #include "ShinsenWidgetJobTreeItem.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnOpenedItem);
+
 UCLASS(Abstract, Blueprintable, EditInlineNew)
 class SHINSEN_API UShinsenWidgetJobTreeItem : public UShinsenWidgetBase {
     GENERATED_BODY()

@@ -2,7 +2,10 @@
 #include "CoreMinimal.h"
 #include "ShinsenWidgetBase.h"
 #include "EMapGimmicType.h"
+#include "ShinsenWidgetCreateSystemSaveWindow.h"
 #include "ShinsenWidgetMapGimmickRepair.generated.h"
+
+
 
 UCLASS(Blueprintable, EditInlineNew)
 class SHINSEN_API UShinsenWidgetMapGimmickRepair : public UShinsenWidgetBase {

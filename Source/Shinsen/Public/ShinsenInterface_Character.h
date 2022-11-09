@@ -324,7 +324,7 @@ public:
     void SetBattleFieldBreakGaugeForceHide(bool bInFlag);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetAnimationMode(TEnumAsByte<EAnimationMode::Type> InAnimationMode);
+    void SetAnimationMode(EAnimationMode::Type InAnimationMode);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetAITerritoryReturning(bool bInFlag);

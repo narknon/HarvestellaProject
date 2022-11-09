@@ -52,7 +52,7 @@ public:
     
     UShinsenAnimNotify_MONCommonSpawnBulletPlayerAndSurroundRandom();
     UFUNCTION(BlueprintCallable, BlueprintPure=false, meta=(WorldContext="WorldContextObject"))
-    static void GetPlayerAndSurroundRandomLocations(const UObject* WorldContextObject, AShinsenCharacter* InOwner, bool bInIsNotSpawnPlayerLocation, EShinsenAnimNotify_MONCommonSpawnBulletPlayerAndSurroundRandomSpawnAreaType InSpawnAreaType, bool bInIsRandomBulletPlayerBase, bool bInIgnoreSelfRange, bool bInInvalidLocationNotSpawn, float InSpawnAreaRadiusMin, float InSpawnAreaRadiusMax, float InSpawnCollisionRadiusOverlapJudge, int32 InSpawnAreaDivideNum, int32 InRandomSpawnNum, TArray<FVector>& OutputLocations) const;
+    static void GetPlayerAndSurroundRandomLocations(const UObject* WorldContextObject, AShinsenCharacter* InOwner, bool bInIsNotSpawnPlayerLocation, EShinsenAnimNotify_MONCommonSpawnBulletPlayerAndSurroundRandomSpawnAreaType InSpawnAreaType, bool bInIsRandomBulletPlayerBase, bool bInIgnoreSelfRange, bool bInInvalidLocationNotSpawn, float InSpawnAreaRadiusMin, float InSpawnAreaRadiusMax, float InSpawnCollisionRadiusOverlapJudge, int32 InSpawnAreaDivideNum, int32 InRandomSpawnNum, TArray<FVector>& OutputLocations);
     
 };
 

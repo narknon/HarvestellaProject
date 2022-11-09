@@ -114,7 +114,7 @@ public:
     UFUNCTION(BlueprintCallable)
     void setFriendCharId(int32 InIndex, const FString& InCharID);
     
-    UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+    /*UFUNCTION(meta=(DisplayName = "SQEXInit"), BlueprintNativeEvent)*/
     void ReceiveInit();
     
     UFUNCTION(BlueprintCallable, BlueprintPure)

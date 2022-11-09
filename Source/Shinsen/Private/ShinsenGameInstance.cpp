@@ -11,8 +11,8 @@ void UShinsenGameInstance::SetPlayerJobSlotID(const FString& SlotName, const FSt
 void UShinsenGameInstance::setFriendCharId(int32 InIndex, const FString& InCharID) {
 }
 
-void UShinsenGameInstance::ReceiveInit_Implementation() {
-}
+/*void UShinsenGameInstance::ReceiveInit_Implementation() {
+}*/
 
 FString UShinsenGameInstance::JobTypeToID(ECharacterJobType JobType) const {
     return TEXT("");

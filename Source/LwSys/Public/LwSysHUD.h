@@ -19,7 +19,8 @@ protected:
     
 public:
     ALwSysHUD();
-    UFUNCTION(BlueprintCallable, BlueprintCosmetic)
+    
+    /*UFUNCTION(BlueprintCallable, BlueprintCosmetic)*/
     void ReceiveDrawHUD(int32 SizeX, int32 SizeY);
     
     
