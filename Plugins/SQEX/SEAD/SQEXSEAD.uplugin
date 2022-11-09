@@ -1,0 +1,50 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.0",
+	"FriendlyName": "SQEXSEAD",
+	"Description": "Audio system developed by SQUARE-ENIX.",
+	"Category": "Audio",
+	"CreatedBy": "SQUARE-ENIX",
+	"CreatedByURL": "http://www.square-enix.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SQEXSEAD",
+			"Type": "Runtime",
+			"LoadingPhase": "PreEarlyLoadingScreen"
+		},
+		{
+			"Name": "SQEXSEADUtils",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SQEXSEADAnimNotifies",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "SQEXSEADSequencerTracks",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SQEXSEADMusic",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SQEXSEADEvent",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

@@ -1,0 +1,5 @@
+#include "ShinsenAnimNotifyState_AttackInputBufferAccepting.h"
+
+UShinsenAnimNotifyState_AttackInputBufferAccepting::UShinsenAnimNotifyState_AttackInputBufferAccepting() {
+}
+

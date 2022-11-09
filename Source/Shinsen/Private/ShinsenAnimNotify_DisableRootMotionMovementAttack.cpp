@@ -1,0 +1,5 @@
+#include "ShinsenAnimNotify_DisableRootMotionMovementAttack.h"
+
+UShinsenAnimNotify_DisableRootMotionMovementAttack::UShinsenAnimNotify_DisableRootMotionMovementAttack() {
+}
+
