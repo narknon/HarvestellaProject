@@ -63,7 +63,7 @@
 		{
 			"Name": "RichTextBlockInlineDecorator",
 			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/OfferIDGoesHere"
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e3be7a5e9bb445eb92b54a2ab8571b07"
 		},
 		{
 			"Name": "PythonScriptPlugin",
@@ -179,9 +179,15 @@
 		{
 			"Name": "OnlineSubsystemSteam",
 			"Enabled": true
+		},
+		{
+			"Name": "UIParticleSystem",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher: //ue/marketplace/content/10b64fc937ac49edba22761bb0b9eaeb"
 		}
 	],
 	"TargetPlatforms": [
-		"Switch"
+		"Switch",
+		"WindowsNoEditor"
 	]
 }

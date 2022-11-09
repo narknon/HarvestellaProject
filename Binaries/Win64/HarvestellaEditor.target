@@ -280,6 +280,14 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/UIParticleSystem/Binaries/Win64/UE4Editor-UIParticleSystem.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UIParticleSystem/Binaries/Win64/UE4Editor-UIParticleSystem.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/ACLPlugin/Binaries/Win64/UE4Editor-ACLPlugin.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -373,14 +381,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/SQEX/SEAD/Binaries/Win64/UE4Editor-SQEXSEADEvent.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UIParticleSystem/Binaries/Win64/UE4Editor-UIParticleSystem.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UIParticleSystem/Binaries/Win64/UE4Editor-UIParticleSystem.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -2576,6 +2576,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/UIParticleSystem/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/ACLPlugin/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2593,10 +2597,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/SQEX/SEAD/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UIParticleSystem/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -3130,6 +3130,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/UIParticleSystem/UIParticleSystem.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/ACLPlugin/ACLPlugin.uplugin",
 			"Type": "UFS"
 		},
@@ -3151,10 +3155,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/SQEX/SEAD/SQEXSEAD.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UIParticleSystem/UIParticleSystem.uplugin",
 			"Type": "UFS"
 		},
 		{
