@@ -50,6 +50,7 @@
 !*.ush
 !*.hlsl
 !*.glsl
+!*.usmap
 
 # Text files
 !*.txt
